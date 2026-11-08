@@ -1,0 +1,21 @@
+{
+  "name": "nexora-ai",
+  "version": "1.2.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "promote-admin": "node scripts/promote-admin.js"
+  },
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "dependencies": {
+    "@fal-ai/client": "^1.6.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.77.0"
+  }
+}
